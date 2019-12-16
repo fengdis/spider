@@ -1,0 +1,45 @@
+{
+  "userInfo": {
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "name": {
+        "type": "keyword"
+      },
+      "urlToken": {
+        "type": "keyword"
+      },
+      "gender": {
+        "type": "integer"
+      },
+      "answerCount": {
+        "type": "integer"
+      },
+      "articleCount": {
+        "type": "integer"
+      },
+      "followerCount": {
+        "type": "integer"
+      },
+      "home": {
+        "type": "keyword"
+      },
+      "industry": {
+        "type": "keyword"
+      },
+      "company": {
+        "type": "keyword"
+      },
+      "job": {
+        "type": "keyword"
+      },
+      "university": {
+        "type": "keyword"
+      },
+      "major": {
+        "type": "keyword"
+      }
+    }
+  }
+}
