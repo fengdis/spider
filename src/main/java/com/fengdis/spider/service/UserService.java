@@ -43,6 +43,9 @@ public class UserService {
                         log.info("[{}|{}|{}]的数据有重复，需要删除该条重复数据", user.getId(), user.getName(), urlToken);
                         toDeleteUserList.add(user);
                     } else {
+                        if(urlToken == null){
+                            System.out.println(user.getId());
+                        }
                         bloomFilter.add(urlToken);
                     }
                 }

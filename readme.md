@@ -154,4 +154,4 @@ create database if not exists spider;
 
 # 说明
 
-详细的知乎用户爬取分析项目的设计思路以及代码实现可以参考[我的博客---百万知乎用户数据分析](https://blog.csdn.net/UtopiaOfArtoria/article/details/100077249)。
+详细的知乎用户爬取分析项目的设计思路以及代码实现可以参考[百万知乎用户数据分析](https://blog.csdn.net/UtopiaOfArtoria/article/details/100077249)。
