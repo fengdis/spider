@@ -31,3 +31,24 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+*/target
+/.idea
+*.class
+target/
+.project
+.settings/
+.classpath
+/logs
+*.log
+
+# Intellij
+*.iml
+*/*.iml
+
+# 忽略配置文件提交，避免敏感信息泄露
+*/properties/
+*.properties
+TestCase.java
+*Test.java
